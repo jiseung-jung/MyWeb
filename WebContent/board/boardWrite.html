@@ -3,11 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link href="../css/common/reset.css" rel="stylesheet">
+<link href="../css/common/default.css" rel="stylesheet">
 
 <style type="text/css">
 
+	
+	/* Section */
+	
+	#board_W_content{
+		width: 60%;
+		min-height: 951px;
+		
+		/* min, max	*/
+		
+		margin: 167px auto 80px;
+	}
+	
 	.c1{
 		margin-left: 200px
+	}
+	
+	#h1{
+		width : 600px;
+		margin : 0px auto;
+		text-align: center;
+		padding-bottom: 30px;
 	}
 	
 
@@ -16,7 +37,48 @@
 </head>
 <body>
 
-	<h1>-Board Write Page-</h1>
+	<!-- Header -->
+	
+	<header>
+	<div id="header_util_box">
+			<ul>
+				<li><a href="#">
+					<img alt="" src="/MyWeb/images/common/logo_eng.png"></a>
+				</li>
+				<li><a href="#">
+					<img alt="" src="/MyWeb/images/common/logo_nhbank.png"></a>
+				</li>
+				<li><a href="#">
+					<img alt="" src="/MyWeb/images/common/logo_nhmall.png"></a>
+				</li>			
+			</ul>
+	</div>
+	
+	<hr size="1" color="#e6e6e6">
+	
+	<div id="header_nav">
+		<div id="header_logo">
+		<a href="/MyWeb/index.html"><img alt="" src="/MyWeb/images/common/logo_nh.png"></a>
+		</div>
+		
+		<nav id="header_nav_menu">
+			<ul>
+				<li><a href="#">농협소개</a></li>
+				<li><a href="#">e홍보센터</a></li>
+				<li><a href="#">내 고향 농·축협</a></li>
+				<li><a href="#">나눔경영</a></li>
+				<li><a href="#">윤리경영</a></li>
+				<li><a href="#">인재와 채용</a></li>
+				<li><a href="/MyWeb/board/boardList.html">BOARD</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	</header>
+	
+	<section id="board_W_content">
+
+	<h1 id="h1">-Board Write Page-</h1>
 	
 	<!-- form 태그 사용 -->
 	<!-- 제목, 작성자, 내용, write 버튼 -->
@@ -35,6 +97,40 @@
 	
 	</div>
 	
+	</section>
+	
+	<!-- Footer -->
+	
+	<footer>
+	
+	<div id="footer_top">
+		<div id="footer_top_menu">
+			<ul>
+				<li><a href="#">사이트맵</a></li>
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">이메일주소무단수집거부</a></li>
+				<li><a href="#">찾아오시는길</a></li>
+			</ul>
+		</div>
+		
+		<!--  
+		
+		<div id="footer_top_sel_1">
+			<select>
+				<option>고객맞춤형 사이트 바로가기</option>
+				<option>농업인</option>
+				<option>학생(유치원,초,중,고,대학생)</option>
+				<option>농협인</option>
+			</select>
+		</div>
+		-->
+		
+	</div>
+	
+		<hr size="1" color="#bfbfbf">
+		
+	</footer>
 	
 </body>
 </html>
