@@ -16,11 +16,19 @@
 	
 
 	#header_util_box li{
+		
 		list-style-type: none;
 		float: right;
 		margin-right: 25px;
 		padding-right: 15px;
 		line-height: 40px;
+	}
+	
+	#header_util_box a{
+		text-decoration: none;
+		letter-spacing: -0.7px;
+		color: black;
+		font-size: -0.5rem;
 	}
 	
 	#header_nav{
